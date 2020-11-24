@@ -1,0 +1,73 @@
+object FormMain: TFormMain
+  Left = 0
+  Top = 0
+  Caption = 'FormMain'
+  ClientHeight = 560
+  ClientWidth = 340
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 340.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    TabStop = False
+    object btnClearList: TButton
+      Align = Right
+      Position.X = 240.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      TabStop = False
+      Text = 'LList'
+      OnClick = btnClearListClick
+    end
+    object btlList: TButton
+      Align = Right
+      Position.X = 290.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      TabStop = False
+      Text = 'Listar'
+      OnClick = btlListClick
+    end
+    object btnClearImage: TButton
+      Align = Right
+      Position.X = 190.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      TabStop = False
+      Text = 'LImg'
+      OnClick = btnClearImageClick
+    end
+    object Label1: TLabel
+      Align = Client
+      Size.Width = 190.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = 'Label1'
+      TabOrder = 3
+    end
+  end
+  object vtsList: TVertScrollBox
+    Align = Client
+    Size.Width = 340.000000000000000000
+    Size.Height = 510.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    TabStop = False
+    Viewport.Width = 340.000000000000000000
+    Viewport.Height = 510.000000000000000000
+  end
+end

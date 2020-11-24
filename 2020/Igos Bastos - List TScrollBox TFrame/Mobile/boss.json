@@ -1,0 +1,11 @@
+{
+	"name": "Mobile",
+	"description": "",
+	"version": "1.0.0",
+	"homepage": "",
+	"mainsrc": "./",
+	"projects": [],
+	"dependencies": {
+		"https://github.com/viniciussanchez/dataset-serialize": "^v2.2.1"
+	}
+}

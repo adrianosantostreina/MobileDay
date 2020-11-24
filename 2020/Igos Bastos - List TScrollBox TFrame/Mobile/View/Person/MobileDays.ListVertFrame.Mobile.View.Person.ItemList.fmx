@@ -1,0 +1,94 @@
+inherited FilPerson: TFilPerson
+  inherited lytBackground: TLayout
+    OnPainting = lytBackgroundPainting
+    inherited rctClient: TRectangle
+      HitTest = False
+      object lytInfo1: TLayout
+        Align = Top
+        Position.X = 50.000000000000000000
+        Size.Width = 340.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        TabStop = False
+        object lblId: TLabel
+          Align = Left
+          Margins.Right = 5.000000000000000000
+          Size.Width = 50.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Trailing
+          TextSettings.WordWrap = False
+          Text = 'lblId'
+          TabOrder = 1
+          TabStop = False
+        end
+        object lblName: TLabel
+          Align = Client
+          Margins.Left = 5.000000000000000000
+          Size.Width = 255.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'lblName'
+          TabOrder = 0
+          TabStop = False
+        end
+        object rctGender: TRectangle
+          Align = Right
+          Fill.Color = claFirebrick
+          HitTest = False
+          Position.X = 315.000000000000000000
+          Size.Width = 25.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+        end
+      end
+      object lblEmail: TLabel
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Position.X = 55.000000000000000000
+        Position.Y = 25.000000000000000000
+        Size.Width = 335.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.WordWrap = False
+        Text = 'lblEmail'
+        TabOrder = 1
+        TabStop = False
+      end
+      object lblBirthday: TLabel
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Position.X = 55.000000000000000000
+        Position.Y = 47.000000000000000000
+        Size.Width = 335.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.WordWrap = False
+        Text = 'lblBirthday'
+        TabOrder = 2
+        TabStop = False
+      end
+      object lytImgPerfil: TLayout
+        Align = MostLeft
+        Size.Width = 50.000000000000000000
+        Size.Height = 70.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        TabStop = False
+        object imgPerfil: TImage
+          MultiResBitmap = <
+            item
+            end>
+          Align = Center
+          HitTest = False
+          Size.Width = 40.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+    end
+  end
+end
