@@ -1,0 +1,11 @@
+{
+	"name": "Client",
+	"description": "",
+	"version": "1.0.0",
+	"homepage": "",
+	"mainsrc": "./",
+	"projects": [],
+	"dependencies": {
+		"github.com/gabrielbaltazar/gbclient": "1.0.2"
+	}
+}

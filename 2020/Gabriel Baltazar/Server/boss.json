@@ -1,0 +1,12 @@
+{
+	"name": "Server",
+	"description": "",
+	"version": "1.0.0",
+	"homepage": "",
+	"mainsrc": "./",
+	"projects": [],
+	"dependencies": {
+		"github.com/hashload/horse": "^v2.0.3",
+		"github.com/hashload/horse-basic-auth": "^v1.1.2"
+	}
+}
