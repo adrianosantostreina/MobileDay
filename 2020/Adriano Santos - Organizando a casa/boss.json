@@ -1,0 +1,13 @@
+{
+	"name": "MobileDays Organizando a casa",
+	"description": "",
+	"version": "1.0.0",
+	"homepage": "",
+	"mainsrc": "./",
+	"projects": [],
+	"dependencies": {
+		"github.com/hashload/horse": "^v2.0.6",
+		"github.com/hashload/horse-compression": "^v1.1.1",
+		"github.com/hashload/jhonson": "^1.0.7"
+	}
+}

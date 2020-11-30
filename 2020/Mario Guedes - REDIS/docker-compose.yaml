@@ -1,0 +1,33 @@
+version: '3'
+
+volumes:
+  dados:
+
+services:
+
+  pgadmin:
+    image: dpage/pgadmin4
+    ports:
+      - 8080:80
+    environment:
+      PGADMIN_DEFAULT_EMAIL: mario@arrayof.io
+      PGADMIN_DEFAULT_PASSWORD: postgres
+
+  database:
+    image: postgres:9.6
+    ports:
+    - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      # Volume dos dados
+      - dados:/var/lib/postgresql/data
+      # Scripts
+      - ./scripts:/scripts
+      - ./scripts/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  redis:
+    image: redis:6.0
+    ports:
+    - 6379:6379
+

@@ -1,0 +1,96 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{FAA1B9E0-BE40-4F00-8232-67573851F51A}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="CacheServerSide\CacheServerSide.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Produtor\Produtor.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Consumidor\Consumidor.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Monitor\Monitor.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Ranking\Ranking.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Jogador\Jogador.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="CacheServerSide">
+        <MSBuild Projects="CacheServerSide\CacheServerSide.dproj"/>
+    </Target>
+    <Target Name="CacheServerSide:Clean">
+        <MSBuild Projects="CacheServerSide\CacheServerSide.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CacheServerSide:Make">
+        <MSBuild Projects="CacheServerSide\CacheServerSide.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Produtor">
+        <MSBuild Projects="Produtor\Produtor.dproj"/>
+    </Target>
+    <Target Name="Produtor:Clean">
+        <MSBuild Projects="Produtor\Produtor.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Produtor:Make">
+        <MSBuild Projects="Produtor\Produtor.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Consumidor">
+        <MSBuild Projects="Consumidor\Consumidor.dproj"/>
+    </Target>
+    <Target Name="Consumidor:Clean">
+        <MSBuild Projects="Consumidor\Consumidor.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Consumidor:Make">
+        <MSBuild Projects="Consumidor\Consumidor.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Monitor">
+        <MSBuild Projects="Monitor\Monitor.dproj"/>
+    </Target>
+    <Target Name="Monitor:Clean">
+        <MSBuild Projects="Monitor\Monitor.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Monitor:Make">
+        <MSBuild Projects="Monitor\Monitor.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Ranking">
+        <MSBuild Projects="Ranking\Ranking.dproj"/>
+    </Target>
+    <Target Name="Ranking:Clean">
+        <MSBuild Projects="Ranking\Ranking.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Ranking:Make">
+        <MSBuild Projects="Ranking\Ranking.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Jogador">
+        <MSBuild Projects="Jogador\Jogador.dproj"/>
+    </Target>
+    <Target Name="Jogador:Clean">
+        <MSBuild Projects="Jogador\Jogador.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Jogador:Make">
+        <MSBuild Projects="Jogador\Jogador.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="CacheServerSide;Produtor;Consumidor;Monitor;Ranking;Jogador"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="CacheServerSide:Clean;Produtor:Clean;Consumidor:Clean;Monitor:Clean;Ranking:Clean;Jogador:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="CacheServerSide:Make;Produtor:Make;Consumidor:Make;Monitor:Make;Ranking:Make;Jogador:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

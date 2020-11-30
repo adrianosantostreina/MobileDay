@@ -1,0 +1,464 @@
+inherited FMyHome_LgXhdpiPh: TFMyHome_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited tbcMidias: TTabControl
+    Size.Width = 450.000000000000000000
+    Size.Height = 647.000000000000000000
+    Sizes = (
+      450s
+      598s
+      450s
+      598s)
+    inherited tabMidia: TTabItem
+      Size.Width = 225.000000000000000000
+      ExplicitSize.cx = 101.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited tbcControles: TTabControl
+        Size.Width = 450.000000000000000000
+        Size.Height = 598.000000000000000000
+        TabIndex = 1
+        Sizes = (
+          450s
+          598s
+          450s
+          598s)
+        inherited tabTV: TTabItem
+          IsSelected = False
+          ExplicitSize.cx = 8.000000000000000000
+          ExplicitSize.cy = 8.000000000000000000
+          inherited FramedScrollBox1: TFramedScrollBox
+            Size.Width = 450.000000000000000000
+            Size.Height = 550.000000000000000000
+            Viewport.Width = 450.000000000000000000
+            Viewport.Height = 550.000000000000000000
+            inherited Layout200: TLayout
+              Size.Width = 445.000000000000000000
+              inherited btnTV: TButton
+                Position.X = 351.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnLigar: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+            inherited Layout201: TLayout
+              Size.Width = 445.000000000000000000
+              inherited btnCaption: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnConfig: TButton
+                Size.Width = 209.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnConexoes: TButton
+                Position.X = 351.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+            inherited Layout202: TLayout
+              Size.Width = 445.000000000000000000
+              inherited Layout7: TLayout
+                inherited btnTVInfo: TButton
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited btnMudo: TButton
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited btnTVFav: TButton
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+              end
+              inherited Rectangle17: TRectangle
+                inherited lblVolume: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited btnReduzVolume: TButton
+                  IconTintColor = claWhite
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited btnAumentaVolume: TButton
+                  IconTintColor = claWhite
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+              end
+              inherited Rectangle19: TRectangle
+                Position.X = 347.000000000000000000
+                inherited lblCanal: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited btnAumentaCanal: TButton
+                  IconTintColor = claWhite
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited btnReduzCanal: TButton
+                  IconTintColor = claWhite
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+              end
+            end
+            inherited Layout203: TLayout
+              Size.Width = 445.000000000000000000
+              inherited btnGuide: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnTVCima: TButton
+                IconTintColor = claWhite
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnTVMenu: TButton
+                Position.X = 351.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+            inherited Layout204: TLayout
+              Size.Width = 445.000000000000000000
+              inherited btnOK: TButton
+                IconTintColor = claWhite
+                Size.Width = 48.000000000000000000
+                Size.Height = 48.000000000000000000
+                StyleLookup = 'infotoolbutton'
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnTVDireita: TButton
+                IconTintColor = claWhite
+                Position.X = 345.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnTVEsquerda: TButton
+                IconTintColor = claWhite
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+            inherited Layout205: TLayout
+              Size.Width = 445.000000000000000000
+              inherited btnAmazon: TButton
+                Position.X = 345.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnNetflix: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnTVBaixo: TButton
+                IconTintColor = claWhite
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+            inherited Layout206: TLayout
+              Size.Width = 445.000000000000000000
+              inherited btnTV1: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnTV2: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnTV3: TButton
+                Position.X = 345.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+            inherited Layout207: TLayout
+              Size.Width = 445.000000000000000000
+              inherited btnTV4: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnTV5: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnTV6: TButton
+                Position.X = 345.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+            inherited Layout208: TLayout
+              Size.Width = 445.000000000000000000
+              inherited btnTV7: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnTV8: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnTV9: TButton
+                Position.X = 345.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+            inherited Layout209: TLayout
+              Size.Width = 445.000000000000000000
+              inherited btnTV0: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnTVSair: TButton
+                Position.X = 345.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnTVVoltar: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+          end
+          inherited ToolBar1: TToolBar
+            Size.Width = 450.000000000000000000
+            inherited btnNext: TSpeedButton
+              Position.X = 397.000000000000000000
+            end
+            inherited lblTitle1: TLabel
+              Size.Width = 450.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+          end
+        end
+        inherited tabNT: TTabItem
+          IsSelected = True
+          ExplicitSize.cx = 8.000000000000000000
+          ExplicitSize.cy = 8.000000000000000000
+          inherited FramedScrollBox2: TFramedScrollBox
+            Size.Width = 450.000000000000000000
+            Size.Height = 550.000000000000000000
+            Viewport.Width = 450.000000000000000000
+            Viewport.Height = 550.000000000000000000
+            inherited Layout100: TLayout
+              Size.Width = 445.000000000000000000
+              inherited btnNet: TButton
+                Position.X = 351.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnPortal: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+            inherited Layout101: TLayout
+              Size.Width = 445.000000000000000000
+              inherited btnInfo: TButton
+                Position.X = 351.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnMosaico: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+            inherited Layout102: TLayout
+              Size.Width = 445.000000000000000000
+              inherited Rectangle60: TRectangle
+                inherited lblVolumeNET: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited btnAumentaVolumeNET: TButton
+                  IconTintColor = claWhite
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited btnReduzVolumeNET: TButton
+                  IconTintColor = claWhite
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+              end
+              inherited Layout25: TLayout
+                inherited btnMute: TButton
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited btnVoltar: TButton
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+              end
+              inherited Rectangle61: TRectangle
+                Position.X = 347.000000000000000000
+                inherited lblCanalNET: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited btnAumentaCanalNET: TButton
+                  IconTintColor = claWhite
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited btnReduzCanalNET: TButton
+                  IconTintColor = claWhite
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+              end
+            end
+            inherited Layout103: TLayout
+              Size.Width = 445.000000000000000000
+              inherited btnCima: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnNETTV: TButton
+                Position.X = 351.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnSair: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+            inherited Layout104: TLayout
+              Size.Width = 445.000000000000000000
+              inherited btnDireita: TButton
+                Position.X = 345.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnEnter: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnEsquerda: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+            inherited Layout105: TLayout
+              Size.Width = 445.000000000000000000
+              inherited btnBaixo: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnEmail: TButton
+                Position.X = 345.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnITV: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+            inherited Layout106: TLayout
+              Size.Width = 445.000000000000000000
+              inherited btn1: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btn2: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btn3: TButton
+                Position.X = 345.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+            inherited Layout107: TLayout
+              Size.Width = 445.000000000000000000
+              inherited btn4: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btn5: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btn6: TButton
+                Position.X = 345.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+            inherited Layout108: TLayout
+              Size.Width = 445.000000000000000000
+              inherited btn7: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btn8: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btn9: TButton
+                Position.X = 345.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+            inherited Layout109: TLayout
+              Size.Width = 445.000000000000000000
+              inherited btn0: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnFav: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnMenu: TButton
+                Position.X = 345.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+            inherited Layout110: TLayout
+              Size.Width = 445.000000000000000000
+              inherited btnAgora: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnAudio: TButton
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited btnLegenda: TButton
+                Position.X = 345.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+          end
+          inherited ToolBar3: TToolBar
+            Size.Width = 450.000000000000000000
+            inherited Label59: TLabel
+              Size.Width = 450.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+          end
+        end
+      end
+    end
+    inherited tabIluminacao: TTabItem
+      Size.Width = 225.000000000000000000
+      ExplicitSize.cx = 101.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Rectangle95: TRectangle
+        Size.Width = 450.000000000000000000
+        Size.Height = 598.000000000000000000
+        inherited layLuminaria: TLayout
+          Size.Width = 430.000000000000000000
+          inherited lblLuminaria: TLabel
+            Size.Width = 356.000000000000000000
+          end
+        end
+        inherited layEscritorio: TLayout
+          Size.Width = 430.000000000000000000
+          inherited btnLampEscritorio: TSwitch
+            Margins.Bottom = 10.000000000000000000
+            Position.Y = 2.000000000000000000
+          end
+          inherited lblLampEscritorio: TLabel
+            Size.Width = 356.000000000000000000
+          end
+        end
+        inherited layLulu: TLayout
+          Size.Width = 430.000000000000000000
+          inherited lblLulu: TLabel
+            Size.Width = 356.000000000000000000
+          end
+        end
+        inherited pColor: TColorPanel
+          Size.Width = 450.000000000000000000
+          Size.Height = 462.000000000000000000
+        end
+        inherited Memo1: TMemo
+          Size.Width = 440.000000000000000000
+          Viewport.Width = 440.000000000000000000
+          Viewport.Height = 81.000000000000000000
+        end
+      end
+    end
+  end
+  inherited ToolBar5: TToolBar
+    Position.Y = 647.000000000000000000
+    Size.Width = 450.000000000000000000
+    inherited btnReconectar: TSpeedButton
+      Position.X = 402.000000000000000000
+    end
+  end
+  inherited GestureManager1: TGestureManager
+    GestureData = <
+      item
+        Control = tbcMidias
+        Collection = <
+          item
+            GestureID = sgiLeft
+          end
+          item
+            GestureID = sgiRight
+          end>
+      end
+      item
+        Control = tbcControles
+        Collection = <
+          item
+            GestureID = sgiLeft
+          end
+          item
+            GestureID = sgiRight
+          end>
+      end>
+  end
+end
